@@ -56,7 +56,7 @@ var controller = function (model, view) {
                 let chekBox;
                 // chekBox = document.getElementById(`${newItem.toDoText}`);
                 chekBox = view.addItemToView(newItem);
-                ctrlFilterChange();
+                
                 let todo = chekBox.nextSibling.textContent;
 
                 chekBox.addEventListener("click", function () {
