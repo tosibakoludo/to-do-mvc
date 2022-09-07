@@ -53,8 +53,6 @@ var model = (function () {
                         items[i].toDoText = newText;
                         obj = items[i];
                         success = true;
-                    } else {
-                        return -1;
                     }
                 }
             }
